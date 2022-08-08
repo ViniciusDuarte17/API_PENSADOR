@@ -1,0 +1,39 @@
+GET  http://localhost:3003/users/
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZjM2JiM2Q1LWJiMjktNGE4Zi05YmRhLTdhZTVjYzcwNzNmYyIsImlhdCI6MTY1ODQ0MzQ4MiwiZXhwIjoxNjU4NDYxNDgyfQ.2Y1Rv4iFNyOxAt2xkZAKs7MqTflxKWMWM4GsFgcK2rU
+###
+
+
+POST http://localhost:3003/users/signup
+Content-Type: application/json
+
+{
+    "name": "cleiton",
+    "email": "bcleiton730@gmail.com",
+    "password": "clei156"
+}
+
+###
+
+POST http://localhost:3003/users/login
+Content-Type: application/json
+
+{
+     "email": "caila@gmail.com",
+    "password": "megera1235"
+}
+
+###
+PUT http://localhost:3003/users/update
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI0NDMzYjgwLTczYzYtNDQ4Yi1hY2M5LWZiNjQwYjRhYmFjZSIsImlhdCI6MTY1ODQwNjM3OCwiZXhwIjoxNjU4NDI0Mzc4fQ.QXRgWESRHFKsu3V8vKxYoj_5_ktR5NlCNr6TltwnH5E
+Content-Type: application/json
+
+{
+      "name":"vini",
+      "email": "vinicius12@gmail.com"
+}
+
+###
+DELETE  http://localhost:3003/users/delete
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI0NDMzYjgwLTczYzYtNDQ4Yi1hY2M5LWZiNjQwYjRhYmFjZSIsImlhdCI6MTY1ODQwNjM3OCwiZXhwIjoxNjU4NDI0Mzc4fQ.QXRgWESRHFKsu3V8vKxYoj_5_ktR5NlCNr6TltwnH5E
+
+

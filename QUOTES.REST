@@ -1,0 +1,27 @@
+GET http://localhost:3003/quotes
+
+
+###
+POST  http://localhost:3003/quotes/
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNlYzcyYTFiLWViZjAtNGExOS1iNGZjLWJlNmM1ZDExY2NmZCIsImlhdCI6MTY1ODU4NzA4NiwiZXhwIjoxNjU4NjA1MDg2fQ.S_sZ5WjZuLOOcPgvNfzulWY2veo1oqvn9JgUKBihKlk
+Content-Type: application/json
+
+{
+  "phrase": "testando teste do capeta"
+} 
+
+
+###
+PUT http://localhost:3003/quotes/update/88c3b484-5416-4d46-bd2a-df8b231e654c
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjJmOTlmOWQ0LWMzZDQtNGU2OC04ZDZlLTc0MzBlZjZlMzM0OSIsImlhdCI6MTY1ODUwMDEyNSwiZXhwIjoxNjU4NTE4MTI1fQ.nVhefq4hGdvD3pPIttgU4mp_V5GKIJK2eGWJz93SM_g
+Content-Type: application/json
+
+{
+  "phrase": "Aquele que nunca viu a tristeza, nunca reconhecerá a alegria."
+}
+
+###
+DELETE http://localhost:3003/quotes/delete/7f4500c5-4951-435f-b796-02dc33c1cc15
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZjM2JiM2Q1LWJiMjktNGE4Zi05YmRhLTdhZTVjYzcwNzNmYyIsImlhdCI6MTY1ODQ5NTM0NCwiZXhwIjoxNjU4NTEzMzQ0fQ.fXnycTC4dNILK0vYwezZpUpNtYuhSqVxQNpXkGQ4_Xk
+
+

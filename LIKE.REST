@@ -1,0 +1,11 @@
+GET  http://localhost:3003/quotes/like/c2da9f38-5318-4ccd-a15f-b319e210c20a
+
+###
+POST  http://localhost:3003/quotes/like/c2da9f38-5318-4ccd-a15f-b319e210c20a
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNlYzcyYTFiLWViZjAtNGExOS1iNGZjLWJlNmM1ZDExY2NmZCIsImlhdCI6MTY1ODU4MzE3NSwiZXhwIjoxNjU4NjAxMTc1fQ.210j06gnFMw1NRPnnUdbYGOV8clZul19SSQuus3YTBc
+
+###
+
+DELETE   http://localhost:3003/quotes/deslike/c2da9f38-5318-4ccd-a15f-b319e210c20a
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNlYzcyYTFiLWViZjAtNGExOS1iNGZjLWJlNmM1ZDExY2NmZCIsImlhdCI6MTY1ODU4MzE3NSwiZXhwIjoxNjU4NjAxMTc1fQ.210j06gnFMw1NRPnnUdbYGOV8clZul19SSQuus3YTBc
+
