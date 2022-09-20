@@ -1,14 +1,10 @@
-# projeto pessoal
-
-## Api pensador
+# desafio_Multiplier
 
 ### Funcionalidade:
 
-- O usuário pode criar, excluir, editar e visualizar sua conta.
-- O usuário pode criar, excluir, editar e visualizar suas citações.
-- O usuário pode visualizar a listagem de todas as citações de todos usuários, ordenadas por data.
-- O usuário autenticado pode curtir ou descurti um post
-- Implementei serviços no back-end, ao se cadastrar com um email "verdadeiro" chegará um email com a confirmação de cadastro!
+- O usuário pode criar, excluir, editar e visualizar Categoria.
+- O usuário pode criar, excluir, editar e visualizar Produto.
+- O usuário pode criar, excluir, editar e visualizar Estoque.
 
 
  ### Instruções para rodar aplicação localmente
@@ -16,7 +12,7 @@
  Clone o projeto
 
 ```bash
-git clone https://github.com/ViniciusDuarte17/oneblue-test_back_end-node.js.git
+git clone https://github.com/ViniciusDuarte17/desafio_Multiplier.git
 ```
 Instale as dependências
 
@@ -51,7 +47,7 @@ npm run dev
 
  ### Documentação
 
-[Documentação](https://documenter.getpostman.com/view/19713876/UzXKWebg)
+[Documentação](https://documenter.getpostman.com/view/19713876/2s7Z13jiHb)
 
 ## Autor
 
