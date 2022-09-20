@@ -1,10 +1,10 @@
-# desafio_Multiplier
+# API-PENSADOR
 
 ### Funcionalidade:
 
-- O usuário pode criar, excluir, editar e visualizar Categoria.
-- O usuário pode criar, excluir, editar e visualizar Produto.
-- O usuário pode criar, excluir, editar e visualizar Estoque.
+- O usuário pode criar, excluir, editar e visualizar usuário.
+- O usuário pode criar, excluir, editar e visualizar citação.
+- O usuário pode dar like ou deslike caso esteja logado
 
 
  ### Instruções para rodar aplicação localmente
@@ -12,7 +12,7 @@
  Clone o projeto
 
 ```bash
-git clone https://github.com/ViniciusDuarte17/desafio_Multiplier.git
+git clone https://github.com/ViniciusDuarte17/API_PENSADOR.git
 ```
 Instale as dependências
 
@@ -47,7 +47,8 @@ npm run dev
 
  ### Documentação
 
-[Documentação](https://documenter.getpostman.com/view/19713876/2s7Z13jiHb)
+
+[Documentação](https://documenter.getpostman.com/view/19713876/UzXKWebg)
 
 ## Autor
 
